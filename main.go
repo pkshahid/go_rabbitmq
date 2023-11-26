@@ -36,7 +36,7 @@ func main() {
 
 	publisher.Publish(ch, q)
 	consumer.Consume(ch, q)
-
+	log.Print("End of Program.")
 }
 
 func failOnError(err error, msg string) {
