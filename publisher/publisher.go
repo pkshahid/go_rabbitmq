@@ -8,7 +8,7 @@ import (
 )
 
 func Ping() {
-	fmt.Println("Pong From Publisher")
+	fmt.Println("Pong From Publisher!")
 }
 
 func failOnError(err error, msg string) {
